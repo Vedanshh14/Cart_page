@@ -7,11 +7,23 @@ import Topline from './Components/Topline.js'
 import Items from './Components/Items.js'
 
 function App() {
-   const [items,setItems]= useState(data)
+   const [items,setItems]= useState(data);
+   const [total, setTotal] = useState(0);
+
+   function remove_item(id){
+    const newItems = items.filter(tour => tour.id !== id)
+    setItems(newItems);
+   
+    
+   }
+
+  
+
   return (
     <div>
-      <Topline></Topline>
-      <Items items={items}></Items>
+      <Topline total={total}></Topline>
+      <Items items={items} remove_item={remove_item} setTotal={setTotal}></Items>
+      
       
 
      
