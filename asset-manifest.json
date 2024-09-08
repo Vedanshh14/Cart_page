@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Cart_page/static/css/main.c7dfa773.css",
+    "main.js": "/Cart_page/static/js/main.2cdc94df.js",
+    "static/js/453.b85cb987.chunk.js": "/Cart_page/static/js/453.b85cb987.chunk.js",
+    "static/media/logo.png": "/Cart_page/static/media/logo.d8ee6e605a8c9a4f82df.png",
+    "static/media/macbook.webp": "/Cart_page/static/media/macbook.6fa420e5c5a5b11dc091.webp",
+    "static/media/shorts.webp": "/Cart_page/static/media/shorts.794e681fcf441ff0c513.webp",
+    "static/media/watch.webp": "/Cart_page/static/media/watch.7f098c89e0d3a96f830d.webp",
+    "static/media/coding_interview.webp": "/Cart_page/static/media/coding_interview.cdf38972b5b7b0cd671c.webp",
+    "static/media/grey_tshirt.webp": "/Cart_page/static/media/grey_tshirt.40731d2111860b59eb8a.webp",
+    "static/media/puma_shoes.webp": "/Cart_page/static/media/puma_shoes.515c84f2076157cbc2eb.webp",
+    "static/media/grey_cargo.webp": "/Cart_page/static/media/grey_cargo.3c29639defe828685831.webp",
+    "static/media/Red_shirt.webp": "/Cart_page/static/media/Red_shirt.86b3738314cd55cc0a84.webp",
+    "index.html": "/Cart_page/index.html",
+    "main.c7dfa773.css.map": "/Cart_page/static/css/main.c7dfa773.css.map",
+    "main.2cdc94df.js.map": "/Cart_page/static/js/main.2cdc94df.js.map",
+    "453.b85cb987.chunk.js.map": "/Cart_page/static/js/453.b85cb987.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7dfa773.css",
+    "static/js/main.2cdc94df.js"
+  ]
+}
