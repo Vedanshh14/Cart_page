@@ -1,4 +1,4 @@
-function Card({ id, name, image, price,remove_item}) {
+function Card({ id, name, image, price,remove_item,add_price}) {
   return (
 
     <div className="flex mx-4 my-24 flex-col rounded-xl bg-white  text-gray-700 shadow-md">
@@ -17,7 +17,7 @@ function Card({ id, name, image, price,remove_item}) {
         <button data-ripple-light="true" type="button" class="select-none rounded-lg py-3 px-6 m-2 text-center align-middle font-sans text-xs font-bold uppercase text-[#eb008b] border border-[#eb008b]" onClick={()=>remove_item(id)}>
           Remove
         </button>
-        <button data-ripple-light="true" type="button" class="select-none rounded-lg bg-[#eb008b] py-3 px-6 m-2 text-center align-middle font-sans text-xs font-bold text-white ">
+        <button data-ripple-light="true" type="button" class="select-none rounded-lg bg-[#eb008b] py-3 px-6 m-2 text-center align-middle font-sans text-xs font-bold text-white " onClick={()=>add_price(id,price)}>
           Add to cart
         </button>
       </div>
