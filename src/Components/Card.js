@@ -1,7 +1,7 @@
 function Card({ id, name, image, price,remove_item,add_price}) {
   return (
 
-    <div className="flex mx-4 my-12 flex-col rounded-xl bg-white  text-gray-700 justify-center items-center shadow-md">
+    <div className="flex mx-4 my-24 flex-col rounded-xl bg-white  text-gray-700 justify-center items-center shadow-md">
       <div className=" mx-6 h-80 space-x-4 rounded-xl bg-blue-gray-500 bg-clip-border flex justify-center items-center">
         <img src={image} alt={name} className="object-contain h-full w-full" />
       </div>
