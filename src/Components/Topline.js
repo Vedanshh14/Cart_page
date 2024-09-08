@@ -15,7 +15,7 @@ function Topline({total}) {
             </div>
 
             <div className="flex flex-row items-center justify-center p-3 mx-10 my-4 text-xl border rounded-md border-[#eb008b]">
-                <span>Cart Total: {total}</span>
+                <span>Cart Total: Rs. {total}</span>
             </div>
         </div>
     );
