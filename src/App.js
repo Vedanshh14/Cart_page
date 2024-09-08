@@ -11,7 +11,7 @@ function App() {
   const [total, setTotal] = useState(0);
 
   function remove_item(id) {
-    const newItems = items.filter(tour => tour.id !== id)
+    const newItems = items.filter(tour => tour.id !== id);
     setItems(newItems);
     if (newItems.length === 0) {
       setTimeout(() => {
@@ -21,9 +21,8 @@ function App() {
   }
 
   function add_price(id, price) {
-
     setTotal(total + price);
-    const newItems = items.filter(tour => tour.id !== id)
+    const newItems = items.filter(tour => tour.id !== id);
     setItems(newItems);
 
     if (newItems.length === 0) {
@@ -32,10 +31,13 @@ function App() {
       }, 0);
     }
   }
+
   return (
     <div>
-      <Topline total={total}></Topline>
-      <Items items={items} remove_item={remove_item} add_price={add_price}></Items> </div>
+      <Topline total={total}  />
+      <Items items={items} remove_item={remove_item} add_price={add_price}  />
+    </div>
   );
 }
+
 export default App;
