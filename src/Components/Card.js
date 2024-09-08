@@ -13,7 +13,7 @@ function Card({ id, name, image, price,remove_item,add_price}) {
           Rs {price}
         </p>
       </div>
-      <div className="flex w-60 flex-col p-6 pt-0   border-2 border-red-500">
+      <div className="flex w-60 flex-col p-6 pt-0 ">
         <button data-ripple-light="true" type="button" class="object-containselect-none rounded-lg py-3 px-6 m-2 text-center align-middle font-sans text-xs font-bold uppercase text-[#eb008b] border border-[#eb008b]" onClick={()=>remove_item(id)}>
           Remove
         </button>
