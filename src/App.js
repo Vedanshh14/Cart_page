@@ -3,8 +3,8 @@ import './App.css';
 import { useState } from 'react';
 import React from 'react';
 import data from './Data';
-import Topline from './Components/Topline.js'
-import Items from './Components/Items.js'
+import Topline from './Components/Topline'
+import Items from './Components/Items'
 
 function App() {
   const [items, setItems] = useState(data);
